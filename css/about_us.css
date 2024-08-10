@@ -1,0 +1,174 @@
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+
+body {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    background-color: #0e1823;
+    
+    color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.hero {
+    height: 812px;
+}
+.herro {
+    background-color: aqua;
+    border-radius: 14px;
+    width: 375px;
+    height: 812px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.about {
+    margin: 0 auto;
+    padding-bottom: 0 20px 80px 20px;
+    margin-top: -60px;
+}
+
+.container-about {
+    width: 375px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.about-paragraph-text {
+    background-color: #fbfbfb;
+    padding: 40px 40px 335px 40px;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 255px;
+}
+
+
+.about-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 40px;
+}
+
+.about-paragraph-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.about-first-paragraph {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+
+.about-second-paragraph {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.picture-about {
+    position: absolute;
+    transform: translate(20px, -292px);
+}
+
+.about-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 24px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding-bottom: 150px;
+        margin-top: -67px;
+    }
+
+    .container-about {
+    width: 768px;
+    }
+
+    .about-paragraph-text {
+        padding: 50px 136px 224px 32px;
+        width: 672px;
+    }
+
+    .about-title {
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+
+    .about-paragraph-box {
+    }
+
+    .about-first-paragraph {
+        font-size: 23px;
+    }
+    
+    .about-second-paragraph {
+        font-size: 13px;
+        line-height: 1.15;
+        
+    }
+
+    .picture-about {
+        transform: translate(32px, -194PX);
+    } 
+}
+
+@media screen and (min-width: 1280px) {
+    .about {
+        padding-bottom: 150px;
+        margin-top: -35px;
+    }
+
+    .container-about {
+        width: 1280px;
+    }
+    
+    .about-paragraph-text {
+        display: flex;
+        gap: 189px;
+        padding: 50px 50px 415px 50px;
+        width: 1079px;
+    }
+
+    .about-paragraph-box {
+        max-width: 354px;
+        padding-right: 2px;
+    }
+
+    .picture-about {
+        transform: translate(49px, -338PX);
+    }
+}

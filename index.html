@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/about_us.css">
 </head>
 <body>
-    <h1>This is exaple project</h1>
+    <section class="hero">
+        <div class="herro">
+        </div>
+    </section>
+    <section class="about">
+        <div class="container-about">
+            <div class="about-paragraph-text">
+                <h2 class="about-title">YachtJet fleet is here to take you on the ultimate adventure</h2>
+                <div class="about-paragraph-box">
+                    <p class="about-first-paragraph">
+                        From spacious decks to state-of-the-art technology, our yachts are designed to provide the perfect
+                        blend of luxury and functionality.
+                    </p>
+                    <p class="about-second-paragraph">
+                        Take a look at our selection below and choose the yacht that matches your needs and preferences.No
+                        matter which
+                        yacht
+                        you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book now and
+                        get ready
+                        for
+                        an
+                        unforgettable adventure on the high seas.
+                    </p>
+                </div>
+            </div>
+            <div class="about-picture-box">
+                <picture class="picture-about">
+                    <source media="(min-width: 1280px)"
+                        srcset="/about-us/about-desktop-x1.jpg 1x, /about-us/about-desktop-x2.jpg 2x" />
+                    <source media="(min-width: 768px)"
+                        srcset="/about-us/about-tablet-x1.jpg 1x, /about-us/about-tablet-x2.jpg 2x" />
+                    <source media="(max-width: 767px)"
+                        srcset="/about-us/about-tablet-x1.jpg 1x, /about-us/about-tablet-x2.jpg 2x" />
+                    <img src="/img/about-us/about-mobile-x1.jpg" alt="adventure on a yacht under the starry sky"
+                        max-width="1180" class="about-img" />
+                </picture>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
